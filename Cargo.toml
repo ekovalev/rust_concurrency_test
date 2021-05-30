@@ -1,0 +1,10 @@
+[package]
+name = "rust-concurrency-test"
+version = "0.1.0"
+authors = ["Evgeny Kovalev <eugene.a.kovalevy@gmail.com>"]
+edition = "2018"
+
+[workspace]
+
+[dependencies]
+serde = { version = "1.0.125", features = ["derive"] }
